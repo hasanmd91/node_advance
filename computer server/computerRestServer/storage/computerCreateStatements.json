@@ -1,0 +1,27 @@
+{
+    "host":"localhost",
+    "port":3306,
+    "admin":"boss",
+    "user":"oliver",
+    "userpassword":"1234",
+    "dropUser":true,
+    "debug":true,
+    "database":"computerdb",
+    "allowPublicKeyRetrieval": true,
+    "tables":[
+        {
+            "tableName":"computer",
+            "columns":[
+                "id integer not null primary key",
+                "name varchar(20) not null",
+                "type varchar(30) not null",
+                "processor varchar(15) not null",
+                "amount integer not null"
+            ],
+            "data":[
+                [1,"Beast II","server","Selenium II",100],
+                [2, "Cera 2400", "laptop","Brain 456", 25]
+            ]
+        }
+    ]
+}

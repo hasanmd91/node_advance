@@ -1,0 +1,8 @@
+{
+    "host":"localhost",
+    "port":3306,
+    "user":"oliver",
+    "password":"1234",
+    "database":"computerdb",
+    "allowPublicKeyRetrieval": true
+}
