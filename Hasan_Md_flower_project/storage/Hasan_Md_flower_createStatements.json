@@ -1,0 +1,27 @@
+{
+  "host": "localhost",
+  "port": 3306,
+  "admin": "hasan",
+  "user": "emily",
+  "userpassword": "QlkCiD9P",
+  "dropUser": true,
+  "debug": true,
+  "database": "flowerdb",
+  "allowPublicKeyRetrieval": true,
+  "tables": [
+    {
+      "tableName": "flower",
+      "columns": [
+        "flowerId integer not null primary key",
+        "name varchar(18) not null",
+        "site varchar(17) not null",
+        "unitPrice integer not null",
+        "stock integer not null"
+      ],
+      "data": [
+        [1, "liliy", "helsinki", 15, 100],
+        [2, "koly", "korso", 35, 100]
+      ]
+    }
+  ]
+}
