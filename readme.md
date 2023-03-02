@@ -4,11 +4,12 @@ The "Node_advance" repository is a collection of assignments and projects for No
 
 ## Learning objectives
 
-- node
-- express
-- sql
-- database
-- object oriented programming
+- Node
+- Express
+- Sql
+- Mariadb
+- Database
+- Object oriented programming
 - RESTful API design
 - Middleware
 - Error handling
