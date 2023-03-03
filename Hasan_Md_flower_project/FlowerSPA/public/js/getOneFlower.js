@@ -53,11 +53,28 @@
     const flower = result[0];
     console.log(flower);
     resultarea.innerHTML = `
-        <p><span class="legend">Id</span> ${flower.flowerId}</p>
-        <p><span class="legend">Name</span> ${flower.name}</p>
-        <p><span class="legend">Type</span> ${flower.site}</p>
-        <p><span class="legend">Processor</span> ${flower.unitPrice}</p>
-        <p><span class="legend">Amount</span> ${flower.stock}</p>
-        `;
+    <table>
+      <tr>
+        <td><span class="legend">Id</span></td>
+        <td>${flower.flowerId}</td>
+      </tr>
+      <tr>
+        <td><span class="legend">Name</span></td>
+        <td>${flower.name}</td>
+      </tr>
+      <tr>
+        <td><span class="legend">Type</span></td>
+        <td>${flower.site}</td>
+      </tr>
+      <tr>
+        <td><span class="legend">Processor</span></td>
+        <td>${flower.unitPrice}</td>
+      </tr>
+      <tr>
+        <td><span class="legend">Amount</span></td>
+        <td>${flower.stock}</td>
+      </tr>
+    </table>
+  `;
   }
 })();
